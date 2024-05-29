@@ -1,8 +1,8 @@
 cask "choreo-cli" do
-  version "v0.0.43"
+  version "v1.1.3"
   arch arm: "arm64", intel: "amd64"
-  sha256 arm: "404574ea6c3876a7780d947510482adf68311943918b9281d59c834e296f31ae",
-    intel: "d8a39673cb9fde0140241d07c30d6e4511e3e986c1b0a1ddc8051e4b53be6985"
+  sha256 arm: "0985ebb872bae5946a351363a402c4d3fd4eb3d4e035b104c0e2a491afef71dc",
+    intel: "999919b615f5fad3972c3fc09404361b2d53604549f4ab662ab409da3e87542d"
 
   url "https://github.com/wso2/choreo-cli/releases/download/#{version}/choreo-cli-#{version}-darwin-#{arch}.zip",
     verified: "github.com/wso2/choreo-cli/"
